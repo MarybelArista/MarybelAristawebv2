@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #421247;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #421247;
+    background-image: linear-gradient(to right, #411241, #8377D1);
+    position: relative;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #FFE600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFE600;
+}
+
+.navbar-nav {
+    color: #FFE600;
+}
+
+.container {
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    padding-left: 75px;
+    padding-top: 10px;
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+    list-style: none;
+}
+
+.menu>li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 20px 20px;
+}
+
+.menu a {
+    color: #FFE600;
+    text-decoration: none;
+}
+
+.menu>li>a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    border-bottom: 4px solid #FFE600;
+}
+
+.main {
+    background-color: #421247;
+    padding-top: 100px;
+    padding-block-end: 100px;
+    border-top: 500px;
+    font-weight: bolder;
+    color: #FFE600;
+    font-size: 200%;
+    text-align: left;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+.main>section>article>h1 {
+    padding: 8%;
+    color: #FFE600;
+}
+
+.boton {
+    padding-left: 8%;
+}
+
+.boton>a {
+    background-color: #FFE600;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 1%;
+    color: #421247;
+}
+
+.boton>a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+footer {
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    font-size: smaller;
+    background-image: linear-gradient(to right, #411241, #8377D1);
+}
+
+.redes {
+    padding: 2%;
+}
+
+.mainabout {
+    background-color: white;
+    color: #421247;
+    display: inline-block;
+    padding-left: 6%;
+}
+
+.seccionuno {
+    background-color: #421247;
+    float: left;
+    padding: 1%;
+    color: #FFE600;
+}
+
+.contenidomainabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "presentacion fotomarybel";
+}
+
+.presentacion {
+    padding: 30%;
+    float: left;
+    text-align: left;
+}
+
+.fotomarybel {
+    float: inline-end;
+    padding: 15%;
+}
+
+.mainservicios {
+    background-color: #421247;
+    color: white;
+    display: inline-block;
+    padding-left: 6%;
+}
+
+.secciondos {
+    background-color: #FFE600;
+    float: left;
+    padding: 1%;
+    color: #421247;
+}
+
+.contenidoservicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 500px;
+    grid-template-areas:
+        ". . . "
+        "branding socialmedia web"
+        ". . .";
+    text-align: center;
+    color: white;
+
+
+}
+
+.branding {
+    grid-area: branding;
+    padding: 5%;
+}
+
+.socialmedia {
+    grid-area: socialmedia;
+    padding: 5%;
+}
+
+.web {
+    grid-area: web;
+    padding: 5%;
+}
+
+.encabezados>th {
+    font-weight: bolder;
+    font-size: 250%;
+    text-align: center;
+}
+
+.textos>td {
+    font-weight: lighter;
+    font-size: 80%;
+    padding: 1%;
+}
+
+.mainportafolio {
+    background-color: #FFE600;
+    padding-block-end: 100px;
+    border-top: 500px;
+    font-weight: bolder;
+    color: #421247;
+    font-size: 100%;
+    text-align: left;
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+.portafolio {
+    text-align: center;
+    padding: 8%;
+}
+
+.encabezados>td {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.maincontacto {
+    background-color: #FFE600;
+    padding: 10%;
+    color: #411241;
+}
