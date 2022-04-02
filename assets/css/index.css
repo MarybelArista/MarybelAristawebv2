@@ -76,7 +76,7 @@ body {
     border-top: 500px;
     font-weight: bolder;
     color: #FFE600;
-    font-size: 200%;
+    font-size: 2em;
     text-align: left;
     padding-left: 100px;
     text-decoration: none;
@@ -213,7 +213,7 @@ footer {
     border-top: 500px;
     font-weight: bolder;
     color: #421247;
-    font-size: 100%;
+    font-size: 1em;
     text-align: left;
     padding-left: 80px;
     text-decoration: none;
@@ -226,11 +226,32 @@ footer {
 
 .encabezados>td {
     font-weight: bolder;
-    font-size: 250%;
+    font-size: 3em;
 }
 
 .maincontacto {
     background-color: #FFE600;
     padding: 10%;
     color: #411241;
+}
+
+@media screen and (max-width:768px) {
+    .contenidomainabout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "presentacion"
+        "fotomarybel";
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .contenidoservicios {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "branding" "socialmedia" "web";
+    }
+
 }
